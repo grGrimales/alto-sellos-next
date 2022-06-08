@@ -24,6 +24,7 @@ export const Wave = () => {
                 <a
                   href="https://api.whatsapp.com/send?phone=+5491137872339&text=Hola,%20me%20gustar%C3%ADa%20conocer%20mas%20detalles%20de%20los%20costos%20de%20los%20sellos."
                   target="_blank"
+                  rel={"noreferrer"}
                 >
                   Solicitar presupuesto
                 </a>
