@@ -1,0 +1,142 @@
+@import './mixins.module.scss';
+@import './variables.module.scss';
+
+.sectionAboutUs {
+    height: 100%;
+
+
+    @include large {
+        height: 130rem;
+    }
+
+    @include xxl {
+        height: 80rem;
+
+    }
+}
+
+.titleAbout {
+    font-size: 2.7rem;
+    font-weight: 900;
+    text-align: center;
+    padding: 2rem;
+    color: $color-title;
+
+    @include medium {
+        font-size: 3.75rem;
+
+    }
+}
+
+
+.sectionAboutUs {
+    padding: 1rem;
+
+}
+
+.containerDescription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @include medium {
+        flex-direction: row-reverse;
+        gap: 1rem;
+
+    }
+}
+
+.containerDescription__img {
+
+    img {
+        overflow: hidden;
+
+        border-radius: .8rem;
+        transition: all ease-in-out .3s;
+        width: 16rem;
+        margin-bottom: 1rem;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+
+
+        @include large {
+            width: 33rem;
+        }
+
+        @include xxl {
+            width: 38rem;
+        }
+    }
+}
+
+.containerDescription__p {
+
+    p {
+        text-align: justify;
+        font-size: 1.5rem;
+        line-height: 1.5;
+
+    }
+
+}
+
+.containerValores {
+    margin-top: 8rem;
+}
+
+.containerValores__title,
+.containerValores__subtitle {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: $color-title;
+    font-size: 2.5rem;
+    font-weight: 900;
+
+
+    @include medium {
+        font-size: 3.75rem;
+
+    }
+}
+
+
+.containerValores__subtitle {
+    font-size: 1.5rem;
+}
+
+.valores {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
+
+    @include medium {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .valores__div {
+        border: 1px dashed $color-btn;
+        margin-bottom: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 1rem;
+        padding: 1rem;
+
+        p {
+            line-height: 1.5;
+            padding: .5rem;
+
+        }
+
+
+    }
+
+    img {
+        width: 5rem;
+        align-self: flex-start;
+
+
+    }
+}
