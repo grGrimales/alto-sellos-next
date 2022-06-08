@@ -9,7 +9,7 @@ const ContactPage = () => {
         <div className={styles.containerContact}>
           <div className={styles.containerContact__description}>
             <i class="fas fa-envelope"></i>
-            <p>example@gmail.com</p>
+            <p>mariobelizan@gmail.com</p>
           </div>
           <div className={styles.containerContact__description}>
             <i class="fas fa-phone"></i>
