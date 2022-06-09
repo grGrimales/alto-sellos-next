@@ -92,27 +92,6 @@ export default function Home() {
                 <span>María Gómez, productos Aromatizantes para textiles.</span>
               </div>
             </div>
-            <div className={styles.containerTestimony}>
-              <img src="/images/avatarTwo.png" alt="Avatar" />
-              <div className={styles.containerTestimony_description}>
-                <p>
-                  GRACIAS POR LA PRESENTACIÓN,DELICADEZA Y RESPONSABILIDAD QUE
-                  PONEN AL CUMPLIR CON SU TRABAJO...!!!
-                </p>
-                <span>Silvia Toranzo, propietaria de Silbely Creaciones.</span>
-              </div>
-            </div>
-
-            <div className={styles.containerTestimony}>
-              <img src="/images/avatarTwo.png" alt="Avatar" />
-              <div className={styles.containerTestimony_description}>
-                <p>
-                  GRACIAS POR LA PRESENTACIÓN,DELICADEZA Y RESPONSABILIDAD QUE
-                  PONEN AL CUMPLIR CON SU TRABAJO...!!!
-                </p>
-                <span>Silvia Toranzo, propietaria de Silbely Creaciones.</span>
-              </div>
-            </div>
           </div>
         </section>
       </Layout>

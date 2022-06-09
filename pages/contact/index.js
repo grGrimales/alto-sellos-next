@@ -14,7 +14,7 @@ const ContactPage = () => {
         <div className={styles.containerContact}>
           <div className={styles.containerContact__description}>
             <i className="fas fa-envelope"></i>
-            <p>mariobelizan@gmail.com</p>
+            <p>altosellos@gmail.com</p>
           </div>
           <div className={styles.containerContact__description}>
             <i className="fas fa-phone"></i>
@@ -27,10 +27,10 @@ const ContactPage = () => {
           </div>
 
           <ul className={styles.information__list}>
-            <li>Berazategui</li>
+            <li>Sur del Gran Buenos Aires</li>
             <li>Caba</li>
-            <li>Sur de Buenos Aires</li>
             <li> La Plata</li>
+            <li>Berazategui</li>
           </ul>
         </div>
 
