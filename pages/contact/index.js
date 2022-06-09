@@ -18,7 +18,7 @@ const ContactPage = () => {
           </div>
           <div className={styles.containerContact__description}>
             <i className="fas fa-phone"></i>
-            <p>+54 911 3787 2339 / +54 911 3787 2339</p>
+            <p>+54 911 3787 2339 </p>
           </div>
 
           <div className={styles.containerContact__description}>
