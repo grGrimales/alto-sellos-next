@@ -25,6 +25,16 @@ const CreationsPage = () => {
                 </div>
               </div>
             </div>
+            <div className={styles.containerStart}>
+              <img src="/images/start02.png" alt="Creaciones Alto Sellos" />
+              <img
+                src="/images/start02.png"
+                alt="Creaciones Alto Sellos"
+              />{" "}
+              <img src="/images/start02.png" alt="Creaciones Alto Sellos" />{" "}
+              <img src="/images/start02.png" alt="Creaciones Alto Sellos" />{" "}
+              <img src="/images/start02.png" alt="Creaciones Alto Sellos" />
+            </div>
           </div>
           <div className={styles.container}>
             <img
@@ -43,6 +53,16 @@ const CreationsPage = () => {
                   />
                 </div>
               </div>
+            </div>
+            <div className={styles.containerStart}>
+              <img src="/images/start02.png" alt="Creaciones Alto Sellos" />
+              <img
+                src="/images/start02.png"
+                alt="Creaciones Alto Sellos"
+              />{" "}
+              <img src="/images/start02.png" alt="Creaciones Alto Sellos" />{" "}
+              <img src="/images/start02.png" alt="Creaciones Alto Sellos" />{" "}
+              <img src="/images/start02.png" alt="Creaciones Alto Sellos" />
             </div>
           </div>{" "}
           <div className={styles.container}>
@@ -63,6 +83,17 @@ const CreationsPage = () => {
                 </div>
               </div>
             </div>
+
+            <div className={styles.containerStart}>
+              <img src="/images/start02.png" alt="Creaciones Alto Sellos" />
+              <img
+                src="/images/start02.png"
+                alt="Creaciones Alto Sellos"
+              />{" "}
+              <img src="/images/start02.png" alt="Creaciones Alto Sellos" />{" "}
+              <img src="/images/start02.png" alt="Creaciones Alto Sellos" />{" "}
+              <img src="/images/start02.png" alt="Creaciones Alto Sellos" />
+            </div>
           </div>{" "}
           <div className={styles.container}>
             <img
@@ -81,6 +112,16 @@ const CreationsPage = () => {
                   />
                 </div>
               </div>
+            </div>
+            <div className={styles.containerStart}>
+              <img src="/images/start02.png" alt="Creaciones Alto Sellos" />
+              <img
+                src="/images/start02.png"
+                alt="Creaciones Alto Sellos"
+              />{" "}
+              <img src="/images/start02.png" alt="Creaciones Alto Sellos" />{" "}
+              <img src="/images/start02.png" alt="Creaciones Alto Sellos" />{" "}
+              <img src="/images/start02.png" alt="Creaciones Alto Sellos" />
             </div>
           </div>
           <div className={styles.container}>
@@ -101,6 +142,16 @@ const CreationsPage = () => {
                 </div>
               </div>
             </div>
+            <div className={styles.containerStart}>
+              <img src="/images/start02.png" alt="Creaciones Alto Sellos" />
+              <img
+                src="/images/start02.png"
+                alt="Creaciones Alto Sellos"
+              />{" "}
+              <img src="/images/start02.png" alt="Creaciones Alto Sellos" />{" "}
+              <img src="/images/start02.png" alt="Creaciones Alto Sellos" />{" "}
+              <img src="/images/start02.png" alt="Creaciones Alto Sellos" />
+            </div>
           </div>
           <div className={styles.container}>
             <img
@@ -119,6 +170,17 @@ const CreationsPage = () => {
                   />
                 </div>
               </div>
+            </div>
+
+            <div className={styles.containerStart}>
+              <img src="/images/start02.png" alt="Creaciones Alto Sellos" />
+              <img
+                src="/images/start02.png"
+                alt="Creaciones Alto Sellos"
+              />{" "}
+              <img src="/images/start02.png" alt="Creaciones Alto Sellos" />{" "}
+              <img src="/images/start02.png" alt="Creaciones Alto Sellos" />{" "}
+              <img src="/images/start02.png" alt="Creaciones Alto Sellos" />
             </div>
           </div>
           <div className={styles.container}>
@@ -139,6 +201,17 @@ const CreationsPage = () => {
                 </div>
               </div>
             </div>
+
+            <div className={styles.containerStart}>
+              <img src="/images/start02.png" alt="Creaciones Alto Sellos" />
+              <img
+                src="/images/start02.png"
+                alt="Creaciones Alto Sellos"
+              />{" "}
+              <img src="/images/start02.png" alt="Creaciones Alto Sellos" />{" "}
+              <img src="/images/start02.png" alt="Creaciones Alto Sellos" />{" "}
+              <img src="/images/start02.png" alt="Creaciones Alto Sellos" />
+            </div>
           </div>
           <div className={styles.container}>
             <img
@@ -157,6 +230,17 @@ const CreationsPage = () => {
                   />
                 </div>
               </div>
+            </div>
+
+            <div className={styles.containerStart}>
+              <img src="/images/start02.png" alt="Creaciones Alto Sellos" />
+              <img
+                src="/images/start02.png"
+                alt="Creaciones Alto Sellos"
+              />{" "}
+              <img src="/images/start02.png" alt="Creaciones Alto Sellos" />{" "}
+              <img src="/images/start02.png" alt="Creaciones Alto Sellos" />{" "}
+              <img src="/images/start02.png" alt="Creaciones Alto Sellos" />
             </div>
           </div>
         </div>

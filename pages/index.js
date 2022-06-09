@@ -7,20 +7,45 @@ export default function Home() {
     <>
       <Layout>
         <section className={styles.sectionSlogan}>
-          <h2>Especialistas en Sellos Artesanales</h2>
-          <p>
-            A pesar de nuestra breve trayectoria como emprendimiento, tomamos el
-            compromiso de trabajar sobre pedidos y realizar trabajos urgentes.
-            Estamos en condiciones de cumplir, sin obstáculos, cualquier
-            trabajo, no importando el tamaño de este. Nos diferenciamos de la
-            competencia por la rapidez en dar solución a sus requerimientos. Nos
-            esforzamos por brindar el mejor servicio para así competir con
-            cualquier empresa del rubro. Nuestros clientes nos valoran porque
-            trabajamos con profesionalismo y rapidez, ofreciendo una atención
-            personalizada y garantizando productos de calidad, todo a un precio
-            increíble.Contamos con todo lo necesario para satisfacer sus
-            necesidades. Compruébelo usted mismo.
-          </p>
+          <h2 className="  animate__animated animate__slideInUp">
+            Especialistas en Sellos Artesanales
+          </h2>
+          <div className={styles.sloganDescription}>
+            <div className={styles.containerDescription}>
+              <div className={styles.containerDescription__img}>
+                <img src="/images/logo1.jpeg" alt="Sobre Nosotros" />
+              </div>
+
+              <div className={styles.containerDescription__p}>
+                <p>
+                  A pesar de nuestra breve trayectoria como emprendimiento,
+                  tomamos el compromiso de trabajar sobre pedidos y realizar
+                  trabajos urgentes. Estamos en condiciones de cumplir, sin
+                  obstáculos, cualquier trabajo, no importando el tamaño de
+                  este. Nos diferenciamos de la competencia por la rapidez en
+                  dar solución a sus requerimientos.
+                </p>
+              </div>
+            </div>
+
+            <div className={styles.containerDescription}>
+              <div className={styles.containerDescription__img}>
+                <img src="/images/logo.jpeg" alt="Sobre Nosotros" />
+              </div>
+
+              <div className={styles.containerDescription__p}>
+                <p>
+                  Nos esforzamos por brindar el mejor servicio para así competir
+                  con cualquier empresa del rubro. Nuestros clientes nos valoran
+                  porque trabajamos con profesionalismo y rapidez, ofreciendo
+                  una atención personalizada y garantizando productos de
+                  calidad, todo a un precio increíble.Contamos con todo lo
+                  necesario para satisfacer sus necesidades. Compruébelo usted
+                  mismo.
+                </p>
+              </div>
+            </div>
+          </div>
 
           <div className={styles.sloganImg}>
             <img
@@ -30,7 +55,7 @@ export default function Home() {
             />
 
             <img
-              src="/images/creationsThree.jpeg"
+              src="/images/logo3.jpeg"
               alt="Avatar"
               className={styles.image}
             />

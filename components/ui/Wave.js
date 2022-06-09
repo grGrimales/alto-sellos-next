@@ -5,7 +5,7 @@ import styles from "../../styles/Wave.module.scss";
 export const Wave = () => {
   return (
     <>
-      <div className="containerAll">
+      <div className="containerAll animate__animated animate__fadeIn">
         <div className={styles["cover"]}>
           <div className={styles["bg_color"]}></div>
           <div className={`${styles.w1} ${styles.wave}`}></div>

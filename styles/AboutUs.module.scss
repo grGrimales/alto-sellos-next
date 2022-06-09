@@ -124,6 +124,10 @@
         border-radius: 1rem;
         padding: 1rem;
 
+        h3 {
+            font-size: 1.7rem;
+        }
+
         p {
             line-height: 1.5;
             padding: .5rem;
@@ -137,6 +141,9 @@
         width: 5rem;
         align-self: flex-start;
 
+        &:hover {
+            transform: scale(1.2, 1.2);
+        }
 
     }
 }

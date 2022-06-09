@@ -24,6 +24,7 @@
         margin-bottom: 2rem;
         font-size: 2.7rem;
         font-weight: 900;
+        text-align: center;
 
         @include medium {
             font-size: 3.75rem;
@@ -31,22 +32,77 @@
         }
     }
 
-    p {
-        font-size: 1.5rem;
-        margin-bottom: 3rem;
 
-        @include medium {
-            font-size: 1.8rem;
+}
 
-        }
+.sloganDescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
 
-        @include xxl {
-            font-size: 2rem;
 
+
+}
+
+.containerDescription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 6rem;
+
+
+
+    @include medium {
+        flex-direction: row;
+        gap: 1rem;
+
+        &:nth-child(2) {
+            flex-direction: row-reverse;
         }
 
     }
 }
+
+.containerDescription__img {
+    display: flex;
+    flex-direction: row-reverse;
+
+    img {
+        overflow: hidden;
+        border-radius: .8rem;
+        transition: all ease-in-out .3s;
+        width: 20rem;
+        height: 25rem;
+        margin-bottom: 1rem;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+
+
+        @include large {
+            width: 33rem;
+        }
+
+        @include xxl {
+            width: 38rem;
+        }
+    }
+}
+
+.containerDescription__p {
+
+    p {
+        text-align: justify;
+        font-size: 1.8rem;
+        line-height: 1.5;
+
+    }
+
+}
+
+
 
 .sloganImg {
     display: flex;
@@ -55,6 +111,7 @@
     padding: 1rem;
     align-items: center;
     gap: 1rem;
+    margin-top: 5rem;
 
     @include medium {
         flex-direction: row;
@@ -62,8 +119,11 @@
     }
 
     img {
-        width: 16rem;
+        width: 20rem;
+        height: 20rem;
         border-radius: .8rem;
+        border: 2px dashed $color-btn;
+
         transition: transform ease-in-out .3s;
 
 
@@ -76,6 +136,8 @@
 
         }
     }
+
+
 }
 
 
