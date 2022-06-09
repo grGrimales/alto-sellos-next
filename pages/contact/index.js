@@ -30,7 +30,6 @@ const ContactPage = () => {
             <li>Sur del Gran Buenos Aires</li>
             <li>Caba</li>
             <li> La Plata</li>
-            <li>Berazategui</li>
           </ul>
         </div>
 

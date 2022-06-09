@@ -33,7 +33,7 @@ export const Wave = () => {
             <div className={styles["container__vector"]}>
               <Image
                 className={styles["vector"]}
-                src={"/images/alto-sellos2.png"}
+                src={"/images/altoSellosWave.jpeg"}
                 alt="vector"
                 height="350"
                 width={350}
