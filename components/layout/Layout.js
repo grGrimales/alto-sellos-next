@@ -6,21 +6,27 @@ const origin = typeof window === "undefined" ? "" : window.location.origin;
 
 console.log(origin);
 
-export const Layout = ({ children, title, content, classMain }) => {
+export const Layout = ({ children, title, content }) => {
   return (
     <>
       <Head>
         <title>{title || "Alto Sellos"}</title>
         <meta name="author" content="Grediana Rojas" />
         <meta name="description" content={content} />
-        <meta name="keywords" content="paginas web" />
+        <meta
+          name="keywords"
+          content="alto-sellos, Argentina, Buenos Aires, sellos, artesanales, enprendimientos"
+        />
 
         <meta property="og:title" content={`Información sobre  ${title}`} />
         <meta
           property="og:description"
           content={`Esta es la página  sobre  ${title}`}
         />
-        <meta property="og:image" content={`${origin}/images/logo.png`} />
+        <meta
+          property="og:image"
+          content={`${origin}/images/creationsMain.png`}
+        />
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"

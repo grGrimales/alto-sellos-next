@@ -3,7 +3,10 @@ import styles from "/styles/Creations.module.scss";
 
 const CreationsPage = () => {
   return (
-    <Layout title="Creaciones">
+    <Layout
+      title="Creaciones"
+      content="Sellos artesanales para dejar la huella de tu profesión, comercio o emprendimiento. Brindamos sellos personalizados, a la medida de sus necesidades."
+    >
       <section>
         <h2 className={styles.titleCreations}>Nuestras creaciones</h2>
         <div className={styles.creations}>

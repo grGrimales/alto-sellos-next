@@ -3,7 +3,12 @@ import styles from "/styles/Contact.module.scss";
 
 const ContactPage = () => {
   return (
-    <Layout title="Contacto">
+    <Layout
+      title="Contacto"
+      content="Alto Sellos ofrece que
+    cada historia perdure en tus estampas, tarjetas y marchandasing.
+   nos encontramos Berazategui, Sur de Buenos Aires."
+    >
       <h2 className={styles.titleContact}>Contáctanos</h2>
       <section className={styles.sectionInfo}>
         <div className={styles.containerContact}>

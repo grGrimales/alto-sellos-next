@@ -3,7 +3,10 @@ import styles from "/styles/AboutUs.module.scss";
 
 const AboutUsPage = () => {
   return (
-    <Layout title="Sobre Nosotros">
+    <Layout
+      title="Sobre Nosotros"
+      content="Nos dedicamos a la creación de sellos artesanales en Argentina, sellos hechos a la medida ideal para emprendimientos."
+    >
       <h2 className={styles.titleAbout}>Sobre Nosotros</h2>
       <section className={styles.sectionAboutUs}>
         <div className={styles.containerDescription}>

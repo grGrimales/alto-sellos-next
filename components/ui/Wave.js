@@ -33,10 +33,10 @@ export const Wave = () => {
             <div className={styles["container__vector"]}>
               <Image
                 className={styles["vector"]}
-                src={"/images/alto-sellos2.png"}
+                src={"/images/prueba5.png"}
                 alt="vector"
-                height="350"
-                width={350}
+                height="550"
+                width={400}
               />
             </div>
           </div>

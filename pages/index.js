@@ -5,7 +5,12 @@ import { Layout } from "../components/layout/Layout";
 export default function Home() {
   return (
     <>
-      <Layout>
+      <Layout
+        content="Alto Sellos ofrece que
+              cada historia perdure en tus estampas, tarjetas y marchandasing.
+              Con nuestro servicio de ida y vuelta de modelos y formas va
+              surgiendo el sello artesanal y personalizado que necesitas"
+      >
         <section className={styles.sectionSlogan}>
           <h2 className="  animate__animated animate__slideInUp">
             Especialistas en Sellos Artesanales
