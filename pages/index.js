@@ -6,6 +6,7 @@ export default function Home() {
   return (
     <>
       <Layout
+        title="Alto Sellos"
         content="Alto Sellos ofrece que
               cada historia perdure en tus estampas, tarjetas y marchandasing.
               Con nuestro servicio de ida y vuelta de modelos y formas va
