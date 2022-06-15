@@ -15,7 +15,7 @@ export const Layout = ({ children, title, content }) => {
         <meta name="description" content={content} />
         <meta
           name="keywords"
-          content="alto-sellos, Argentina, Buenos Aires, sellos, artesanales, enprendimientos"
+          content="alto sellos, Argentina, Buenos Aires, sellos, artesanales, enprendimientos"
         />
 
         <meta property="og:title" content={`Información sobre  ${title}`} />
